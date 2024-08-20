@@ -7,7 +7,7 @@ jobs:
   test-client:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out code 1
+      - name: Check out code 
         uses: actions/checkout@v2
       - name: Goto client and run tests
         run: cd client && npm i && npm test  
